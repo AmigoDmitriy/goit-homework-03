@@ -217,6 +217,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.4px;
   color: var(--NAVY-BLUE, #2e2f42);
+  margin-bottom: 8px;
 }
 
 .text-advantages {
