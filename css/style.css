@@ -278,7 +278,9 @@ header {
 }
 
 .item-one {
-  border: 1px solid var(--CORNFLOWER, #E7E9FC);
+  border-left: 1px solid var(--CORNFLOWER, #E7E9FC);
+  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+  border-right: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
 
@@ -301,10 +303,12 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+
 }
 
 .logo-three {
   color: #f4f4fd;
+
 }
 
 .footer .logo1:hover,
