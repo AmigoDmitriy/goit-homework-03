@@ -92,12 +92,13 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   list-style-type: none;
+  margin-right: 76px;
 }
 
 .nav-list {
   list-style-type: none;
   font-weight: 500;
-  display: inline-flex;
+  display: flex;
   gap: 40px;
   margin: auto;
 }
@@ -118,7 +119,6 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  margin-right: 76px;
 }
 
 .adress .link {
