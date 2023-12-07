@@ -188,6 +188,9 @@ header {
   overflow: hidden;
 }
 
+.section-two {
+  background: #FFF;
+}
 
 .section2-list {
   list-style-type: none;
@@ -218,7 +221,7 @@ header {
 }
 
 .section-three {
-  background: #f4f4fd;
+  background-color: #F4F4FD;
 }
 
 .section-three .title-two {
