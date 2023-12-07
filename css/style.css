@@ -159,6 +159,7 @@ header {
   position: absolute;
   overflow: hidden;
   white-space: nowrap;
+  clip-path: inset(100%);
 }
 
 .section2-list {
