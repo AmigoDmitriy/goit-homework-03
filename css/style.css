@@ -56,6 +56,8 @@ header {
 .header-container {
   display: flex;
   align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .adress {
@@ -83,7 +85,6 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   list-style-type: none;
-
 }
 
 .nav-list {
@@ -136,6 +137,9 @@ header {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-top: 188px;
+  margin-left: 331px;
 }
 
 .button-order {
@@ -148,6 +152,13 @@ header {
   color: #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 48px;
+  margin-bottom: 188px;
+  margin-left: 495px;
 }
 
 .button-order:hover,
@@ -159,18 +170,29 @@ header {
 .service {
   color: var(--WHITE, #fff);
   font-weight: 500;
+  padding: 16px 32px;
 }
 
 /* Main Section 2 */
+
 .visually-hidden {
   position: absolute;
-  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 
 .section2-list {
   list-style-type: none;
+  display: flex;
+  gap: 8px;
 }
 
 .title-three {
