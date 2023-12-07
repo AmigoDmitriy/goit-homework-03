@@ -275,10 +275,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-}
-
-.portfolio-list {
   list-style-type: none;
+  row-gap: 48px;
 }
 
 .title-portfolio {
@@ -312,6 +310,7 @@ header {
 /* Footer */
 .footer {
   background: var(--NAVY-BLUE, #2E2F42);
+  padding: 100px 0;
 }
 
 .text-footer {
@@ -319,7 +318,6 @@ header {
   letter-spacing: 0.32px;
   margin-bottom: 100px;
   margin-right: 850px;
-  margin-top: 8px;
 }
 
 .link-footer {
@@ -331,12 +329,11 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  display: inline-flex;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
-  margin-top: 100px;
-  margin-bottom: 8px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-three {
