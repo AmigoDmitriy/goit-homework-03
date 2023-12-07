@@ -20,8 +20,8 @@ img {
 
 .container {
   max-width: 1158px;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -53,21 +53,24 @@ header {
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .adress {
   font-style: normal;
 }
 
 .adress-list {
   list-style-type: none;
-
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .mailto {
-  margin-right: 20px;
-}
-
-.tel {
-  margin-left: 20px;
+  margin-left: 332px;
 }
 
 .logo-one {
@@ -80,17 +83,20 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   list-style-type: none;
+
 }
 
 .nav-list {
   list-style-type: none;
   font-weight: 500;
-
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin: auto;
 }
 
 .nav-list .link {
   color: var(--NAVY-BLUE, #2e2f42);
-
 }
 
 .nav-list .link:hover,
@@ -103,6 +109,7 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
+  margin-right: 76px;
 }
 
 .adress .link {
