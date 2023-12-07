@@ -91,7 +91,6 @@ header {
   list-style-type: none;
   font-weight: 500;
   display: inline-flex;
-  align-items: flex-start;
   gap: 40px;
   margin: auto;
 }
@@ -218,13 +217,15 @@ header {
 
 .secrion3-list {
   list-style-type: none;
+  display: flex;
+  gap: 32px;
 }
 
-.section-three {
-  background-color: #F4F4FD;
+.section-team {
+  background: var(--CLOUD, #F4F4FD);
 }
 
-.section-three .title-two {
+.section-team .title-two {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -247,6 +248,12 @@ header {
 }
 
 /* Main section 4 */
+.portfolio-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
 
 .portfolio-list {
   list-style-type: none;
