@@ -73,7 +73,7 @@ ul {
 
 .adress-list {
   list-style-type: none;
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 40px;
 }
