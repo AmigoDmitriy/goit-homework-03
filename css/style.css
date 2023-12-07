@@ -135,6 +135,7 @@ ul {
 /* Main-Section 1*/
 .one-section {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 188px 0;
 }
 
 .title {
@@ -161,12 +162,12 @@ ul {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  display: inline-flex;
+  display: block;
   align-items: flex-start;
-  gap: 10px;
+  min-width: 169px;
+  height: 56px;
   margin-top: 48px;
-  margin-bottom: 188px;
-  margin-left: 495px;
+  margin-left: 494px;
 }
 
 .button-order:hover,
