@@ -250,9 +250,9 @@ header {
 /* Main section 4 */
 .portfolio-list {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 32px;
+  padding: 0;
 }
 
 .portfolio-list {
