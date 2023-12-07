@@ -204,7 +204,11 @@ ul {
 .section-advantages {
   list-style-type: none;
   display: flex;
-  gap: 8px;
+  gap: 24px;
+}
+
+.advantages-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .title-three {
