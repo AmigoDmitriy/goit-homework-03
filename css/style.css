@@ -8,10 +8,39 @@ body {
   line-height: 1.5;
 }
 
+img {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width:
+    padding-left: padding-right: margin-left: margin-right:
+}
+
 .link {
   text-decoration: none;
   letter-spacing: 0.02em;
 }
+
+/* Removing internal padding */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+
 
 /* Header */
 
