@@ -247,6 +247,11 @@ header {
   color: #2e2f42;
 }
 
+.name {
+  text-align: center;
+  margin-top: 32px;
+}
+
 /* Main section 4 */
 .portfolio-list {
   display: flex;
@@ -292,6 +297,7 @@ header {
 .text-footer {
   color: var(--CLOUD, #f4f4fd);
   letter-spacing: 0.32px;
+  margin-bottom: 100px;
 }
 
 .link-footer {
@@ -303,7 +309,11 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 100px;
 }
 
 .logo-three {
@@ -311,12 +321,12 @@ header {
 
 }
 
-.footer .logo1:hover,
-.footer .logo1:focus {
+.footer .logo-three:hover,
+.footer .logo-three:focus {
   color: #fff;
 }
 
-.footer .logo:hover,
-.footer .logo:focus {
+.footer .link-footer:hover,
+.footer .link-footer:focus {
   color: #fff;
 }
