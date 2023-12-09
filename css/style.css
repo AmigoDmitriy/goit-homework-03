@@ -66,6 +66,7 @@ ul {
 
 .adress {
   font-style: normal;
+  margin-left: auto;
 }
 
 .adress-list {
@@ -75,9 +76,7 @@ ul {
   gap: 40px;
 }
 
-.mailto {
-  margin-left: 332px;
-}
+
 
 .logo-one {
   color: var(--IRIS, #4d5ae5);
