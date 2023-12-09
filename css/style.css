@@ -142,7 +142,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-left: 331px;
+  margin: 0 auto 48px;
 }
 
 .button-order {
@@ -159,8 +159,7 @@ ul {
   display: block;
   min-width: 169px;
   height: 56px;
-  margin-top: 48px;
-  margin-left: 494px;
+  margin: 0 auto;
   cursor: pointer;
 }
 
@@ -328,7 +327,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  height: 24px;
   align-items: center;
   flex-shrink: 0;
   display: inline-block;
@@ -338,7 +336,7 @@ ul {
 .text-footer {
   color: var(--CLOUD, #f4f4fd);
   letter-spacing: 0.32px;
-  margin-right: 850px;
+  max-width: 264px;
 }
 
 .logo-three {
